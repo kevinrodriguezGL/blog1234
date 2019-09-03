@@ -23,7 +23,7 @@ const Index = ({ lang, post, entries, statusCode }) => {
       <Parallax
         src={featuredImage.fields.file.url}
         alt={featuredImage.fields.description}
-        height="400px">
+        height="500px">
         <Nav lang={lang} />
         <section className="grid-absolute-center">
           <h1>{title}</h1>
